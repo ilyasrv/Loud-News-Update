@@ -1,0 +1,100 @@
+.footer {
+	flex: 0 1 auto;
+	background-color: white;
+}
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.Links {
+	display: flex;
+}
+
+.menulogo {
+	display: flex;
+	justify-content: space-around;
+	max-width: 280px;
+	margin-top: 25px;
+}
+.logo {
+	width: 65px;
+	height: 45px;
+}
+
+.firstTxt {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	align-items: flex-end;
+	margin-top: 18px;
+	margin-left: 35px;
+}
+
+.menulinks {
+	column-count: 2;
+	width: 350px;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+.menuitems {
+	text-decoration: none;
+	color: black;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	margin-bottom: 15px;
+}
+
+.copyright {
+	display: block;
+	max-width: 320px;
+	width: 100%;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+.TxtUp {
+	font-weight: 400;
+	margin-bottom: 20px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+.Links {
+	max-width: 200px;
+	width: 100%;
+	margin-top: 5px;
+	justify-content: space-between;
+}
+
+.TxtButtom {
+	margin-top: 15px;
+	padding: 5px;
+}
+
+div.steps {
+	padding: 30px 25px;
+	width: calc((100% - 200px) / 4);
+	border-left: 0.5px solid rgba(255, 255, 255, 0.15);
+	border-bottom: 7px solid transparent;
+}
+
+h4 {
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.11em;
+	color: #c0ba97;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 30px;
+	letter-spacing: 0.03em;
+	color: #ffffff;
+}
